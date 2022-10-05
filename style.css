@@ -253,8 +253,6 @@ nav:hover {
     padding-bottom: 30px;
 }
 
-.point:first-child {}
-
 .point {
     cursor: pointer;
     position: relative;
@@ -298,34 +296,8 @@ nav:hover {
     transition: all 0.3s ease-in-out;
 }
 
-
-/* .slide.active-slide {
-    display: block;
-} */
-
 .point.active {
     flex: 1;
     background-color: aqua;
     border-radius: 5px;
 }
-
-
-/* .slide:nth-child(1) {
-    left: 0;
-}
-
-.slide:nth-child(2) {
-    left: 100%;
-}
-
-.slide:nth-child(3) {
-    left: 200%;
-}
-
-.slide:nth-child(4) {
-    left: 300%;
-}
-
-.slide {
-    transform: translateX(0);
-} */
