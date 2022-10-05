@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+nav {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu {
+    display: flex;
+    /* padding: 10px; */
+    align-items: center;
+}
+
+nav:hover {
+    box-shadow: 0 0 24px 0px rgb(197, 197, 197);
+}
+
+.logo {
+    padding: 10px 30px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.menu>ul {
+    display: flex;
+}
+
+.menu>ul>li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.menu>ul>li:hover,
+.menu>ul>li>a:hover {
+    color: #0065ff;
+}
+
+.menu>ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu>ul>li>ion-icon {
+    font-size: 14px;
+}
+
+.registration>a {
+    /* padding: 0 20px; */
+    text-decoration: none;
+    font-size: 24px;
+    color: #000;
+    margin-left: 20px;
+}
+
+.registration>.btn {
+    color: #fff;
+    background-color: #0065ff;
+    padding: 20px;
+}
+
+.btn:hover {
+    background-color: #133775;
+}
+
+.page {
+    position: relative;
+    top: 65px;
+    background: linear-gradient(to bottom, #eae6ff, #fff);
+}
+
+.width {
+    width: 58%;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(206, 205, 205);
+}
+
+.top>img {
+    width: 30%;
+    /* width: 100%; */
+    right: 0;
+    margin-left: 40px;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.text {
+    padding-top: 100px;
+    margin-right: 100px;
+}
+
+.text>h1 {
+    font-size: 50px;
+}
+
+.text>p {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.email {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.email>input {
+    padding: 15px 20px;
+    font-size: 18px;
+    width: 300px;
+    border: 1px solid rgb(226, 221, 221);
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.btn {
+    padding: 15px;
+    background-color: #0065ff;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.text>a {
+    position: relative;
+    font-size: 20px;
+    padding: 20px;
+    color: #0065ff;
+}
+
+.text>a>ion-icon {
+    position: absolute;
+    right: -10px;
+    border: 1px solid #0065ff;
+    border-radius: 50%;
+    padding: 3px;
+    top: 15px;
+}
+
+.price {
+    display: flex;
+    margin-top: 40px;
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.sec {
+    display: flex;
+    /* position: relative; */
+    margin-right: 20px;
+}
+
+.sec>ion-icon {
+    position: relative;
+    padding: 20px;
+    top: -80px;
+    font-size: 200px;
+    padding-left: 0;
+}
+
+.column>h1 {
+    font-size: 28px;
+    padding-bottom: 20px;
+    color: rgb(59, 59, 59);
+}
+
+.column>p {
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: rgb(92, 90, 90);
+}
+
+.more {
+    text-align: center;
+    margin-top: 50px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.col-1>h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.col-1>p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.col-1>.btn {
+    margin-bottom: 20px;
+}
+
+.col-1>img {
+    width: 90%;
+}
+
+.logos {
+    margin-top: 50px;
+}
+
+.line>ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.line>ul>li {
+    list-style-type: none;
+    font-size: 28px;
+    padding: 30px;
+    position: relative;
+    /* position: relative; */
+    /* margin-bottom: 50px; */
+    /* padding-bottom: 20px; */
+    right: 10px;
+    /* margin: auto; */
+}
+
+.slider {
+    /* top: 50px; */
+    position: relative;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+}
+
+.navigation {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    width: 300px;
+    left: 75%;
+    padding-bottom: 30px;
+}
+
+.point:first-child {}
+
+.point {
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    background-color: #000;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 5px;
+    /* flex: 1; */
+    transition: all 0.3s ease-in-out;
+}
+
+.point:hover {
+    background-color: aqua;
+}
+
+.sliders {
+    height: 100%;
+    position: relative;
+    background-color: #e6fcff;
+}
+
+.navigation>ion-icon {
+    cursor: pointer;
+    background-color: #fff;
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 28px;
+    margin: 10px 20px;
+}
+
+.slide {
+    font-size: 20px;
+    /* position: absolute; */
+    /* background-color: #e6fcff; */
+    display: block;
+    flex: 0 0 100%;
+    /* display: none; */
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* .slide.active-slide {
+    display: block;
+} */
+
+.point.active {
+    flex: 1;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+
+/* .slide:nth-child(1) {
+    left: 0;
+}
+
+.slide:nth-child(2) {
+    left: 100%;
+}
+
+.slide:nth-child(3) {
+    left: 200%;
+}
+
+.slide:nth-child(4) {
+    left: 300%;
+}
+
+.slide {
+    transform: translateX(0);
+} */
