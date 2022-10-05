@@ -4,13 +4,13 @@ const prev = document.querySelector('.prev')
 const slides = document.querySelectorAll('.slide')
 let counter = 0
 
-//funkcję należy dodać do html jako onclick, przełącza na konkretny obrazek czy cytat i zmienia kropki 
+
 
 function current(n) {
     carousel(counter = n)
 }
 
-//przesuwa każdy cytat o 100% razy wartość indexu
+
 slides.forEach((slide, index) => {
     slide.style.left = `${index*100}%`
 })
@@ -38,7 +38,7 @@ function carousel() {
 
     })
 
-    //dodanie active do konkretnej kropki i łączy ją z obrazem
+
     for (let i = 0; i < dots.length; i++) {
         dots[i].classList.remove('active')
     }
